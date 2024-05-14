@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name":"Launch",
+            "type" :"cppdbg",
+            "request": "launch",
+            "program" : "${workspaceFolder}/build/Debug/test_project1",
+            // "program" : "${workspaceFolder}/Debugging/bug.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Debugging/",
+            "environment": [],
+            "MIMode": "gdb",
+            "externalConsole": true,
+        "customLaunchSetupCommands": [
+            {
+                "text":"",
+                "description": "",
+                "ignoreFailures": true
+            }
+        ]
+        }
+    ]
+    
+}

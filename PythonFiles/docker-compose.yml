@@ -1,0 +1,14 @@
+version: '25.0.2'
+services:
+  server:
+  build: server/
+  command: python ./server 
+  ports: 5000
+
+version: '25.0.2'
+services:
+  build: client/
+  command: python ./server
+  network_mode: host
+  depends_on:  
+    -server

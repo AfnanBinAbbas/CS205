@@ -1,0 +1,6 @@
+#This is just a tesing
+
+Develop two microservers. a server, and a client, to be deployed within Docker containers.
+Subsequently, you will automate the deployment process.
+
+Description: Your objective is to build and automate the deployment of two microservers, comprising a server and a client. Each microservice will perform specific functions and will be encapsulated within Docker containers for efficient deployment and scalibilty
